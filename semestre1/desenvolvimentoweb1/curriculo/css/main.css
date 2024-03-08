@@ -1,0 +1,71 @@
+#main{
+    width: 90%;
+    margin: 0 auto;/* top/bottom - 0; left/right - auto */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #8B008B	;
+}
+
+h2 {
+    color: #8B008B	;
+}
+
+a {
+    text-decoration: none;
+    color: #4B0082;
+    font-weight: bold;
+}
+
+#dados-contato, #foto{
+    float: left;
+}
+
+#dados-contato{
+    width: 70%;
+    margin-top: 2%;
+}
+
+#foto{
+    width: 30%;
+    text-align: right;
+}
+
+#foto img{
+    width: 12rem;
+    height: 12rem;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+#formacao{
+    clear: left;
+}
+
+.subtitulo-formacao{
+    padding: 1%;
+}
+
+.experiencia1{
+    padding: 1%;
+}
+
+#função {
+    background-color: #B0C4DE;
+    padding: 0.5%;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+ul {
+    list-style-type:square;
+}
+
+#cursos {
+    background-color: #B0C4DE;
+    padding: 0.5%;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
