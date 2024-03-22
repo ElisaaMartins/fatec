@@ -1,0 +1,95 @@
+* {
+    margin: 0; /* margin externa */
+    padding: 0; /* margem interna */
+}
+
+#container {
+    position: relative;
+    min-height: 100vh; /* tamanho minimo vertical - colocou o minimo como toda tela*/
+}
+
+#header {
+    background-color:#C71585;
+    width: 100%;
+    position: fixed; /* posição fixa */
+    top: 0; /* faz o menu ficar fixado no topo */
+    color: #ffffff;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Madimi One', 'Tahome';
+    /* font-size: 3vw; - maior que o padrão - view width (horizontal) */
+}
+
+#menu {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    cursor: pointer;
+    padding: 1%;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: inherit; /* herda a cor do elemento pai */
+}
+
+#menu li:hover { /* toda vez que passar o mouse no menu faça tal coisa */
+    /* background-color: #8B008B; */
+    padding-bottom: 0.4rem;
+    border-bottom: 0.3rem solid #8B008B;
+    font-weight: bold;
+}
+
+#menu, #content, #footer {
+    font-family: 'Roboto';
+}
+
+#content {
+    padding-top: 150px; 
+    padding-bottom: 60px;
+    width: 90%;
+    margin: 0 auto; /* alinhar elementos não textuais no centro */
+}
+
+#content p{
+    text-align: justify;
+    line-height: 20px; /* espaçamento das linhas */
+    padding-top: 10px;
+}
+
+#content p:first-child, #content h2 { /* pega o primeiro item dentro do elemento identificado */
+    text-align: center;
+}
+
+#content h2 {
+    padding-top: 20px;
+}
+
+#content img {
+    width: 60%;
+}
+
+#footer {
+    background-color: #C71585;
+    width: 100%;
+    height: 50px;
+    /* para ficar a esquerda e embaixo */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footer p {
+    text-align: center;
+    color: #ffffff;
+    padding: 17px 0;
+}
