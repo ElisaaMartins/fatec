@@ -43,6 +43,88 @@ nav a:hover {
     font-weight: bold;
 }
 
+main {
+    padding-top: 140px;
+    /*border: 0.1rem solid #000;*/
+    width: 80%;
+    margin: 0 auto;
+    /* padrão é block pq ocupa 100% do espaço e ele fica um embaixo do outro */
+    display: grid; /* grid fica um do lado do outro (colunas) */
+    grid-template-columns:1fr 1fr 1fr; /* fr -> fração da tela */
+    /* grid-template-columns: repeat(3,1fr); */
+}
+
+#manchete {
+    grid-column: 1/4; 
+    /* background-color: #FFC0CB; */
+    min-height: 300px;
+    display: flex;
+    padding: 1%;
+    margin-bottom: 20px;
+    /* sombreamento da manchete primeiro valor é hori e o segundo é vert, num + é acima e num - é abaixo */
+    box-shadow: 0 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+}
+
+.corpo-manchete {
+    width: 38%;
+    padding: 1%;
+}
+
+.corpo-manchete h2 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 75px;
+}
+
+.corpo-manchete p {
+    padding: 2%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.corpo-manchete a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.corpo-manchete a:hover {
+    text-decoration: underline;
+}
+
+#manchete img {
+    width: auto;
+}
+
+#noticias {
+    grid-column: 1/4;
+    display: flex; /* organizar os elementos dentro de cada coluna - horizontal */
+    flex-wrap: wrap; /* quando atingir o limite da div pula para a linha de baixo */
+    padding-bottom: 70px;
+}
+
+article {
+    width: 31.33%;
+    padding: 1%;
+    min-height: 300px;
+}
+
+
+#noticia1 {
+    background-color: #EE82EE	;
+}
+
+
+#noticia2 {
+    background-color: #DA70D6	;
+}
+
+
+#noticia3 {
+    background-color: #DDA0DD;
+}
+
 footer {
     background-color: #C71585;
     width: 100%;

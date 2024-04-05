@@ -1,0 +1,34 @@
+main {
+    display: block;
+}
+
+section h2 {
+    text-align: center;
+}
+
+#tabela {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+#tabela, #tabela th, #tabela td {
+    border: 0.1em solid #9370DB;
+    border-collapse: collapse;
+}
+
+#tabela thead, #tabela tfoot {
+    background-color: #9370DB;
+    color: #fafafa;
+}
+
+#tabela td {
+    text-align: center;
+}
+
+#tabela td:nth-child(1) { /* child(1) - 1°tabela */
+    text-align: left;
+}
+
+#tabela tbody tr:nth-child(even) { /* even - linha par // odd - linha impar */
+    background-color: #E6E6FA;
+}
