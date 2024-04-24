@@ -12,4 +12,4 @@ else:
     print ("Valor digitado é inválido. Escolha 'homem' ou 'mulher'")
 
 
-print ("Elisa Aparecida Martins de Oliveira - RA: 105392411023")
+print ("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")

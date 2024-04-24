@@ -27,7 +27,7 @@ print("Situação b) Comprar apenas galões de 3,6 litros: ", quantGalao,
 print("Situação c) Misturar latas e galões para o menor preço: ", misturaLata, 
       "latas e ", misturaGalao, "galões - Preço total: R$ ", precoGalaoLata)
 
-print ("Elisa Aparecida Martins de Oliveira - RA: 105392411023")
+print ("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")
 
 
 
