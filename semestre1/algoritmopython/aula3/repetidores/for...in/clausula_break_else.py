@@ -1,6 +1,6 @@
 # usando as cláusulas break (parar laço) e else (o que fazer quando parar o laço)
 print("Exemplo de for com a clausula break e else")
-for x in [0,1,2,3,4,5,6,7,8,9,10]:
+for x in [0,1,2,3,4,5,6,7,8,9,10,11]:
  print(x)
  #break
 else:

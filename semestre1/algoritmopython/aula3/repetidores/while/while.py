@@ -4,6 +4,6 @@
 
 cont = 0 
 
-while (cont <=5):
+while (cont <= 5):
  print("Valor do contador i = " +str(cont))
 cont = cont + 1
