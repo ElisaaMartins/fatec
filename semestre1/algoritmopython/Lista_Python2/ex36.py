@@ -9,7 +9,7 @@ elif ((num % 2) == 0):
 else:
     print ("O número escolhido NÃO é divisivel por 10, 5 ou 2")
 
-print ("Elisa Aparecida Martins de Oliveira - RA: 105392411023")
+print ("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")
 
 
 

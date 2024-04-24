@@ -3,7 +3,7 @@ num = int(input("Digite um número: "))
 
 #situação a
 if ((num == 1) | (num == 2) | (num == 3)):
- print( num, "elevado ao quadrado é", num * num )
+ print( num, "elevado ^2 é", num * num )
 
 #situação b
 elif ((num == 4) | (num == 9)):

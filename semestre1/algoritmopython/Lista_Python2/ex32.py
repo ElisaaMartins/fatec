@@ -10,7 +10,7 @@ if (media >= 7):
 elif (media < 7):
     print ("Você ainda tem uma chance! Estude mais para o exame. Média =", media)
 else:
-    print("Nota digitada inválida")
+    print("Nota inválida")
 
 print ("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")
 

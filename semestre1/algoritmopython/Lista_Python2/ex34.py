@@ -17,5 +17,5 @@ elif (total <= 199.99):
 else:
     print("Sua compra não possui desconto")
 
-print ("Elisa Aparecida Martins de Oliveira - RA: 105392411023")
+print ("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")
 
