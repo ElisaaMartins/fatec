@@ -1,4 +1,4 @@
-x, y, z = 10, 50, 80
+x, y, z = 10, 50, 60
 
 print("O valor da variavel x = " + str(x))
 print("O valor da variavel y = " + str(y))

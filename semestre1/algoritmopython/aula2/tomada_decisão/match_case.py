@@ -1,6 +1,6 @@
 #parecido com o switch case
 dia = int(input("Digite um numero inteiro entre '1 e 7': "))
-mensagem = "Hoje é um bom dia para aprender Python"
+mensagem = "Hoje é um bom dia para aprender algo novo"
 match dia:
     case 1:
         print(" Domingo. " + mensagem)
