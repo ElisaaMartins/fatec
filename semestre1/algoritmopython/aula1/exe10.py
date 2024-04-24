@@ -1,7 +1,7 @@
 # meu primeiro programa em python
 print("Hello Word")
 print("")
-print("Ola Mundo")
+print("Olá Mundo")
 
 ## variáveis
 # snake_case
