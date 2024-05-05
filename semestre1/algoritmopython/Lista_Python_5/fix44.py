@@ -15,6 +15,6 @@ elif (media >= 0) & (media <= 3):
 else:
     print("nota invalida")
 
-print("Elisa Ap. Martins de Oliveira  RA:1051392411023")
+print("Elisa Ap. Martins de Oliveira  RA:1051392411023 - Turma DSM 1°Semestre")
 
 

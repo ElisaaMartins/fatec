@@ -18,6 +18,8 @@ elif sexo == "M":
         print ("Está no peso ideal")
     elif imc >= 25:
          print ("Está acima do peso")
+else:
+    print("Digite F ou M")
 
-print("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")
+print("Elisa Aparecida Martins de Oliveira - RA: 1051392411023 - Turma DSM 1°Semestre")
 

@@ -23,5 +23,5 @@ else:
         print("A maior nota da turma é", maiorNota)
         break
 
-print("Elisa Aparecida Martins de Oliveira - RA: 1051392411023")
+print("Elisa Aparecida Martins de Oliveira - RA: 1051392411023 - Turma DSM 1°Semestre")
 
