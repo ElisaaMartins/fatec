@@ -1,4 +1,4 @@
-arq = open('./Lista_Python_6/fix63/senhas.txt', 'r', encoding="utf-8")
+arq = open('./Lista_Python_6/fix63/senha.txt', 'r', encoding="utf-8")
 senha = arq.read()
 
 listaSenha = senha.split('\n')
@@ -12,3 +12,4 @@ for _ in range(5):
 print (listaSenha)
 print("Elisa Aparecida Martins de Oliveira - RA: 1051392411023 - Turma DSM 1°Semestre")
 arq.close()
+
