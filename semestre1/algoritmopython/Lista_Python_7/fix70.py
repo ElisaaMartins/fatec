@@ -4,7 +4,7 @@ n2 = float(input("Digite a nota da avaliação2: "))
 
 media = (n1 * 4 + n2 * 6) / 10
 
-print("Elisa Ap. Martins de Oliveira  RA:1051392411023 - Turma DSM 1°Semestre")
+print("Elisa Ap. Martins de Oliveira  RA:1051392411023 | Fernanda Victoria Felix Oliveira RA:1051392411027 - Turma DSM 1°Semestre")
 
 if (media >= 9) & (media <= 10): 
     print("Aprovado - A")
