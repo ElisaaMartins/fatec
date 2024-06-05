@@ -69,7 +69,7 @@ main {
 
 
 .prevencao h1 {
-    text-align: justify;
+    text-align: center;
     font-size: 2em;
     line-height: 40px;
     padding-top: 35px;
@@ -81,14 +81,19 @@ main {
 }
 
 .card {
-    width: 18rem;
     height: 35rem;
-    margin: 1rem;
 }
 
 .card p{
     padding: 5%;
     text-align: justify;    
+}
+
+.ubs h1 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 35px;
 }
 
 footer {
