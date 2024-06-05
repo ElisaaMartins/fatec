@@ -67,6 +67,30 @@ main {
     text-align: justify; 
 }
 
+
+.prevencao h1 {
+    text-align: justify;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 35px;
+}
+
+.prevencao p {
+    padding: 2%;
+    text-align: justify; 
+}
+
+.card {
+    width: 18rem;
+    height: 35rem;
+    margin: 1rem;
+}
+
+.card p{
+    padding: 5%;
+    text-align: justify;    
+}
+
 footer {
     background-color: #2061A3;
     width: 100%;
