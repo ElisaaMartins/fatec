@@ -55,6 +55,18 @@ main {
     line-height: 40px;
 }
 
+#imagemDengue img {
+    width: 50rem;
+    border-radius: 15%;
+}
+
+.tiposDengue h1 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 35px;
+}
+
 .sintomas h1 {
     text-align: center;
     font-size: 2em;
@@ -67,6 +79,10 @@ main {
     text-align: justify; 
 }
 
+#imagemSintoma  img {
+    width: 50rem;
+    border-radius: 15%;
+}
 
 .prevencao h1 {
     text-align: center;
@@ -94,6 +110,18 @@ main {
     font-size: 2em;
     line-height: 40px;
     padding-top: 35px;
+}
+
+.ubs h1 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 35px;
+}
+
+.ubs p {
+    padding: 2%;
+    text-align: justify; 
 }
 
 footer {
