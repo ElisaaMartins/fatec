@@ -28,7 +28,7 @@ nav .nav-link {
     font-family: 'Roboto', 'Tahoma';
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
     padding-bottom: 0.4rem;
     border-bottom: 0.3rem solid #313153;
     font-weight: bold;
@@ -39,7 +39,12 @@ main {
     flex: 1;
     width: 80%;
     margin: 0 auto;
-    font-family: 'Roboto';
+    font-family: 'Tahoma';
+}
+
+h1 {
+    font-family: 'Tahoma';
+    color: #2061A3;
 }
 
 .corpo-dengue h1 {
