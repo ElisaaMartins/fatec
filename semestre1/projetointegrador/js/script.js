@@ -32,11 +32,9 @@ function populateTable(data) {
     const cellCasos = row.insertCell();
     cellCasos.textContent = item.casos;
 
-    // Adicione mais células conforme necessário
   });
 }
 
-// Fetch data from the API and populate the table
 fetch(apiUrl)
   .then(response => response.json())
   .then(data => {
