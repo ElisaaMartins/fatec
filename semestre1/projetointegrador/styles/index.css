@@ -69,6 +69,12 @@ th {
     color: white;
 }
 
+#fonte {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Tahoma';
+}
+
 .corpo-dengue h1 {
     text-align: center;
     font-size: 2em;
@@ -79,7 +85,7 @@ th {
 .corpo-dengue p {
     padding: 2%;
     text-align: justify;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 #imagemDengue img {
