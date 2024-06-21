@@ -75,6 +75,10 @@ th {
     font-family: 'Tahoma';
 }
 
+#dengue {
+    padding: 2rem;
+}
+
 .corpo-dengue h1 {
     text-align: center;
     font-size: 2em;
