@@ -75,8 +75,8 @@ th {
     font-family: 'Tahoma';
 }
 
-#dengue {
-    padding: 2rem;
+#dengue, #sintomas, #tiposDengue, #prevencao, #ubs {
+    padding: 3rem;
 }
 
 .corpo-dengue h1 {
